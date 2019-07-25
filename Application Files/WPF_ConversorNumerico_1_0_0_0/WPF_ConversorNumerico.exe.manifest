@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WPF_ConversorNumerico.exe" version="1.0.0.0" publicKeyToken="944039c523a57b93" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WPF_ConversorNumerico" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WPF_ConversorNumerico.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WPF_ConversorNumerico.exe" size="10736">
+      <assemblyIdentity name="WPF_ConversorNumerico" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qiTD0Dzmfn8klGR3II3D1ndvKfSuka9ppv3ToYS5hgQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WPF_ConversorNumerico.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-V8SUHLB\LDS-LABS" issuerKeyHash="45aa463a3b2d47e9298e83d121a30fc2ad45b742" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tY8+aUleliNKa8pZQ1SXYA6GEpybKRbqPAowdO7pU88=</DigestValue></Reference></SignedInfo><SignatureValue>YtS8bMUhFmFfdbto9Acpv/Sriz3zM554Z2iSQ0YQ18e0T7fzFn7ivkUgsmp4PyEfJJpmUx4/0THY0wf5HeGcgFnf79UCP7alm8Llg7KlNt7LTAMlqf+lqkJFWqNE6ghkYz3urBBJoNbKxrNg6cGzNdnaix1Y/vjg2EUFdMRk+E8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qef7YxHbLydUtCD/B18XVhSqKl5ec6+5dJeJo91w0WqHo6mVxmz7PDQif2qNVNfzduUvL7bQdeoxcKeuvM+D9p+rvp9YqJlfQtdDlYCd8rq+oU7J9BSGcIQbmdB0pB+RH1LvvHWzEgE14b97nMFYONVLcb15CYm3tStGFdBbC80=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cf53e9ee74300a3cea16299b9c12860e6097544359ca6b4a23965e49693e8fb5" Description="" Url=""><as:assemblyIdentity name="WPF_ConversorNumerico.exe" version="1.0.0.0" publicKeyToken="944039c523a57b93" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-V8SUHLB\LDS-LABS</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AO0igVBY4Go35rVFaz/d6JQbmdLQ6FhCnpSJpo96uuE=</DigestValue></Reference></SignedInfo><SignatureValue>ej0XLDuZ+qJhvJnNHSwjtpcfsV/5PGw+9z0GAs0cJ2ynG5jf1JjW73iIUnl2Xe3iOth+US0y1lM2zTPk5J7X2BULpm515MtmFgtAYw2BJUSd84lAn1HngApOGITTSup/l1WVyC1L3tKJpVGcEITYv3pGWOcRL3gy4y9rzG3kR7U=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qef7YxHbLydUtCD/B18XVhSqKl5ec6+5dJeJo91w0WqHo6mVxmz7PDQif2qNVNfzduUvL7bQdeoxcKeuvM+D9p+rvp9YqJlfQtdDlYCd8rq+oU7J9BSGcIQbmdB0pB+RH1LvvHWzEgE14b97nMFYONVLcb15CYm3tStGFdBbC80=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQSzO8usyal4VNM5BgTTYmrTANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAFYAOABTAFUASABMAEIAXABMAEQAUwAtAEwAQQBCAFMwHhcNMTkwNzI1MjI1MDM3WhcNMjAwNzI1MDQ1MDM3WjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAFYAOABTAFUASABMAEIAXABMAEQAUwAtAEwAQQBCAFMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKnn+2MR2y8nVLQg/wdfF1YUqipeXnOvuXSXiaPdcNFqh6OplcZs+zw0In9qjVTX83blLy+20HXqMXCnrrzPg/afq76fWKiZX0LXQ5WAnfK6vqFOyfQUhnCEG5nQdKQfkR9S77x1sxIBNeG/e5zBWDjVS3G9eQmJt7UrRhXQWwvNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAZHtNVREtGNwAy2FoVUuTxl7GSM8IgZ5cAyACtWRVHEZ/g8gZTh0FFIS2CMtpcWUqyXgkqfq0/qgKjDv6R0ux9oc5RV/BHmC8vtvmWiGkrOYfFKkqX57JRPkTucyTIqn7SQnkwVUAS9oVJLhaZQvXDIAuE5hfotuPIsIYySAiB+U=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
