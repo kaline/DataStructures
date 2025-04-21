@@ -1,5 +1,5 @@
 # DataStrucutures
-## Resolution of simple problems in Python and JS
+## Resolution of simple problems in Python, JS and C++
 
 ## Data structures
 - Arrays and strings
