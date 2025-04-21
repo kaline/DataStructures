@@ -1,5 +1,5 @@
 # DataStrucutures
-## Resolution of simple problems in C#
+## Resolution of simple problems in Python and JS
 
 ## Data structures
 - Arrays and strings
